@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-25T17:36:16 IST" name="Suite1" finished-at="2021-10-25T17:36:16 IST" duration-ms="48">
+    <groups>
+    </groups>
+    <test started-at="2021-10-25T17:36:16 IST" name="test1" finished-at="2021-10-25T17:36:16 IST" duration-ms="48">
+      <class name="TestNG.PassingParameters">
+        <test-method signature="hello(java.lang.String)[pri:0, instance:TestNG.PassingParameters@309e345f]" started-at="2021-10-25T17:36:16 IST" name="hello" finished-at="2021-10-25T17:36:16 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kausalya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- TestNG.PassingParameters -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

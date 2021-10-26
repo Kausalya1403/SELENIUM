@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 25 15:40:22 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34149 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.Differentsites.OpenTestLeaf()'><b>OpenTestLeaf</b><br>Test class: TestNG.Differentsites</td>
+<td></td>
+<td>3</td>
+<td>TestNG.Differentsites@29626d54</td></tr>
+<tr>
+<td title='TestNG.Demo.test()'><b>test</b><br>Test class: TestNG.Demo</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Demo@34b7ac2f</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.firstGear()'><b>firstGear</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.AssertExample2.EditField()'><b>EditField</b><br>Test class: TestNG.AssertExample2</td>
+<td></td>
+<td>5</td>
+<td>TestNG.AssertExample2@1f3f4916</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.ThirdGear()'><b>ThirdGear</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.Demo.run()'><b>run</b><br>Test class: TestNG.Demo</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Demo@34b7ac2f</td></tr>
+<tr>
+<td title='TestNG.TestDependencies.testTwo()'><b>testTwo</b><br>Test class: TestNG.TestDependencies</td>
+<td></td>
+<td>0</td>
+<td>TestNG.TestDependencies@4b0b0854</td></tr>
+<tr>
+<td title='TestNG.test1.f()'><b>f</b><br>Test class: TestNG.test1</td>
+<td></td>
+<td>0</td>
+<td>TestNG.test1@5bd03f44</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.startTheCar()'><b>startTheCar</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.Differentsites.OpenGoogle()'><b>OpenGoogle</b><br>Test class: TestNG.Differentsites</td>
+<td></td>
+<td>6</td>
+<td>TestNG.Differentsites@29626d54</td></tr>
+<tr>
+<td title='TestNG.Seleniumtesting.EditField()'><b>EditField</b><br>Test class: TestNG.Seleniumtesting</td>
+<td></td>
+<td>12</td>
+<td>TestNG.Seleniumtesting@19bb07ed</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.Breakandidle()'><b>Breakandidle</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.AssertExample.hello()'><b>hello</b><br>Test class: TestNG.AssertExample</td>
+<td></td>
+<td>0</td>
+<td>TestNG.AssertExample@353d0772</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.reverse()'><b>reverse</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.Stop()'><b>Stop</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.Seleniumtesting.f()'><b>f</b><br>Test class: TestNG.Seleniumtesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Seleniumtesting@19bb07ed</td></tr>
+<tr>
+<td title='TestNG.Differentsites.OpenyouTube()'><b>OpenyouTube</b><br>Test class: TestNG.Differentsites</td>
+<td></td>
+<td>5</td>
+<td>TestNG.Differentsites@29626d54</td></tr>
+<tr>
+<td title='TestNG.TestDependencies.testThree()'><b>testThree</b><br>Test class: TestNG.TestDependencies</td>
+<td></td>
+<td>0</td>
+<td>TestNG.TestDependencies@4b0b0854</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.SecondGear()'><b>SecondGear</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.DriveaCar.music()'><b>music</b><br>Test class: TestNG.DriveaCar</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DriveaCar@10e41621</td></tr>
+<tr>
+<td title='TestNG.AssertExample2.email()'><b>email</b><br>Test class: TestNG.AssertExample2</td>
+<td></td>
+<td>0</td>
+<td>TestNG.AssertExample2@1f3f4916</td></tr>
+<tr>
+<td title='TestNG.NewTest.f()'><b>f</b><br>Test class: TestNG.NewTest</td>
+<td></td>
+<td>0</td>
+<td>TestNG.NewTest@e056f20</td></tr>
+<tr>
+<td title='TestNG.TestDependencies.testOne()'><b>testOne</b><br>Test class: TestNG.TestDependencies</td>
+<td></td>
+<td>0</td>
+<td>TestNG.TestDependencies@4b0b0854</td></tr>
+</table><p>
+</body>
+</html>
